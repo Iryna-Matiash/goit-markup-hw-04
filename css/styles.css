@@ -87,6 +87,23 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
         padding: 24px 0;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+.current {
+    position: relative;
+    color: #404bbf;
+}
+
+.current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    height: 4px;
+    width: 100%;
 }
 
 .menu-link:hover,
@@ -104,6 +121,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .addres-item:hover,
 .addres-item:focus,
@@ -215,9 +233,7 @@ body {
         color: #2e2f42;
         margin-bottom: 72px;
 }
-.list-team {
-    background-color: #FFFFFF;
-}
+
 .list-name {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
@@ -292,6 +308,7 @@ body {
     background-color: #2e2f42;
     padding: 100px 0;
 }
+
 .color-logofoter {
     color: #f4f4fd;
 }
@@ -306,4 +323,10 @@ body {
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
+}
+.social-list {
+    display: flex;
+}
+.social-list-link {
+    display: block;
 }
