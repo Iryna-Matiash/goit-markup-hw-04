@@ -399,8 +399,6 @@ display: flex;
 }
 .logo-paragraf {
     margin-right: 120px;
-    display: flex;
-        align-items: baseline;
 }
 .color-logofoter {
     color: #f4f4fd;
@@ -448,7 +446,7 @@ display: flex;
 .social-list-link:focus {
     background-color: #31d0aa;
 }
- .social-list-link .svg {
+ .svg {
     width: 24px;
     height: 24px;
  }
