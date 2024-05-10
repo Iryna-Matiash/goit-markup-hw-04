@@ -37,10 +37,6 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-svg {
-    width: 24px;
-    height: 24px;
-}
 
 
 /* ========== HEADER STYLES ==========*/
@@ -301,10 +297,6 @@ svg {
     background-color: #404bbf;
 }
 
-.svg {
-    height: 16;
-    width: 16;
-}
 .social-icon {
     fill: #f4f4fd;
 }
