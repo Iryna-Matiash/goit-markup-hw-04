@@ -393,13 +393,11 @@ transform: translateY(0%);
     background-color: #2e2f42;
     padding: 100px 0;
 }
-
 .logo-paragraf {
     margin-right: 120px;
     display: flex;
         align-items: baseline;
 }
-
 .color-logofoter {
     color: #f4f4fd;
 }
